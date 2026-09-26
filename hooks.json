@@ -1,0 +1,5 @@
+{
+  "_doc": "Runtime timely hooks, fetched in the browser by every /work-clogs/ page, so hooks can change without a rebuild (just redeploy this one file). A hook shows only when today (America/Chicago) is within hook_start..hook_end AND hook_source_url + hook_verified_on are set. scope: city required; district / environment / role optional (role matches a role or role-pair slug). The most specific matching hook wins. Field names match /workspace/livys/content/timely-hook-module.md. No holiday wording, prices, or unsourced numbers (npm run check:hooks).",
+  "updated": "2026-09-26",
+  "hooks": []
+}
